@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="but"></div>
+                <button class="toggle-btn" onclick="login()">Log In</button>
+                <button class="toggle-btn" onclick="register()"> Registration</button>
+
+            </div>
+
+
+            <!-- ======= Start Social Icon ============ -->
+            <!-- <div class="social-icon"> -->
+
+
+
+
+            <!-- ======= End Social Icon ============ -->
+
+
+            <!-- ======= Log-In Form ============ --> 
+
+            <form id="login" action="" class="input-group">
+                <input type="text" class="input-field" placeholder="User-Id" required>
+                <input type="text" class="input-field" placeholder="Enter Password " required>
+
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log-In</button>
+
+            </form>
+
+            <!-- ======= Log-In Form ============ -->
+
+            <!-- ======= Registration Form ============ --> 
+
+            <form id="register" action="" class="input-group">
+                <input type="text" class="input-field" placeholder="User-Id" required>
+                <input type="email" class="input-field" placeholder="Enter Email" required>
+                <input type="text" class="input-field" placeholder="Enter Password " required>
+
+                <input type="checkbox" class="check-box"><span>I Agree Term & conditions</span>
+                <button type="submit" class="submit-btn">Log-In</button>
+
+            </form>
+
+            <!-- ======= Registration Form ============ -->
+
+
+
+        </div>
+    </div>
+
+            <!-- ======= Coustome Javascript ============ -->
+        <script scr>
+            var x = document.getElementById("login");
+            var y = document.getElementById("register");
+            var z = document.getElementById("but");
+
+            function register(){
+                x.style.left = "-400px";
+                y.style.left = "50px";
+                z.style.left = "100px";
+            }function login(){
+                x.style.left = "50px";
+                y.style.left = "450px";
+                z.style.left = "0px";
+            }
+
+
+
+        </script>
+
+
+
+
+</body>
+
+</html>

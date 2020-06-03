@@ -1,0 +1,51 @@
+
+
+
+/* ======= Start  Navbar ======== */
+.navbar{
+    /* background-color: #232323 !important; */
+}
+/* =====  End NavBar   ======= */
+
+/* =====  Img NavBar   ======= */
+.navbar-brand img{
+    width: 150px;
+    height: 100px;
+}
+/* =====  End Img NavBar   ======= */
+
+.collapse  li a {
+    color: red !important;
+}
+
+
+
+/* ====== Google Fonts ======= */
+.navbar-brand{
+    /* font-family: 'Architects Daughter', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Dancing Script', cursive;
+    color: white !important;
+}
+/* ====== end googel fonts here ====== */
+
+
+
+.navbar-brand:hover {
+    color: red !important;
+}
+
+
+
+/* ======== Main Start ========== */
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black ;
+}
+/* ======== Main Start ========== */
+
+.collapse{
+    padding-right: 60px;
+}

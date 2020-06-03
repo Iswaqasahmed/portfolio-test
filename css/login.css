@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/bird.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+
+.form-box{
+    width: 380px;
+    height: 450px;
+    margin: 100px auto;
+    position: relative;
+    background: #fff;
+    padding: 5px;
+    clear: both;
+    overflow: hidden;
+}
+
+.button-box{
+    width: 200px;
+    margin: 45px auto;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 9px rgb(243, 191, 191);
+
+}
+.toggle-btn{
+    padding: 10px 20px;
+    margin-left: px;
+    cursor: pointer;
+    background: transparent;
+    border: 0px;
+    outline: none;
+    position: relative;
+    text-align: center;
+    
+
+}
+
+ #but{
+     top: 0px;
+     left: 0px;
+     position: absolute;
+     width: 100px;
+     height: 100%;
+     background: linear-gradient(to right,rgb(134, 37, 94),rgb(15, 140, 172) );
+     border-radius: 20px;
+     transition: 0.5s;
+ }
+
+
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 5px 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #0F8CAC;
+    outline: none;
+    background: transparent;
+
+}
+
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-left: 1px;
+    background: linear-gradient(to right,rgb(37, 20, 20),rgb(241, 88, 88) );
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+
+}
+
+
+.check-box{
+    margin: 30px 10px 30px 0px;
+}
+span{
+    color: #86255E;
+    font-size: 15px;
+    bottom: 62px;
+    position: absolute;
+}
+
+
+#login{
+    left: 50px;
+
+}
+#register{
+    left: 450px;
+}
+
+
+
+ @media only screen and (max-width: 500px)
+ {
+     
+        .hero{
+            /* width: 100%; */
+
+            }
+        .form-box{
+            /* width: 50%; */
+            flex-direction: row;
+            width: 200px;
+
+        }
+        .button-box{
+            width: 186px;
+            margin: 35px auto;
+            position: relative;
+            border-radius: 10px;
+            box-shadow: 0 0 20px 9px rgb(243, 191, 191);
+
+        }
+        .toggle-btn{
+            width: 1px;
+            height: 10px;
+
+        }
+        #but{
+            /* width: 40px; */
+        }
+
+ }
